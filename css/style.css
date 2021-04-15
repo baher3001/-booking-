@@ -1,0 +1,118 @@
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/cursors/cur-13/cur1161.ani), url(https://ani.cursors-4u.net/cursors/cur-13/cur1161.png), auto !important;} /* End https://www.cursors-4u.com */
+
+
+::-webkit-scrollbar
+{
+    display: none;
+}
+
+
+body
+{
+    background-image: url('https://images.pexels.com/photos/731217/pexels-photo-731217.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+
+.social
+{
+    width: 100%;
+    text-align: center;
+}
+
+.social h1
+{
+    padding-top: 20px;
+    color: #fff;
+}
+
+
+.social i
+{
+    padding: 0px 10px ;
+}
+
+.social .icons 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.social .icons .icon 
+{
+    background-color: #fff; /* gonna chnage later*/
+    border-radius: 50%;
+    margin-right: 20px;
+    transition: all 0.3s;
+}
+
+.social .icons .icon .fa-facebook-f 
+{
+    color: blue;
+    padding:10px 20px ;
+    font-size: 20px;
+}
+.social .icons .icon .fa-twitter 
+{
+    color: turquoise;
+    padding:10px 20px ;
+    font-size: 20px;
+}
+
+.social .icons .icon .fa-instagram
+{
+    color: rgb(109, 11, 104);
+    padding:10px 20px ;
+    font-size: 20px;
+}
+.social .icons .icon .fa-whatsapp
+{
+    color: rgb(28, 236, 122);
+    padding:10px 20px ;
+    font-size: 20px;
+}
+.social .icons .icon:hover
+{
+    background-color:#e74c3c;
+
+}
+
+/* form section here  */
+.plane
+{
+    width: 100%;
+}
+.plane h3
+{
+    padding-top: 40px;
+    color: #fff;
+}
+
+.plane label
+{
+    color: #fff;
+    float: right;
+    font-weight: 800;
+}
+.plane button
+{
+    margin-left: 15px ;
+}
+
+.plane small
+{
+    color: #c0392b;
+    float: right;
+    display: none;
+    
+}
+
+/* alert here  */
+
+.alert 
+{
+    text-align: center !important;
+    margin-top: 40px !important;
+}
